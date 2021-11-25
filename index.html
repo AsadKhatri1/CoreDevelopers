@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kore Developers</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="phone.css" media="screen and (max-width:1240px)">
+</head>
+
+<body>
+    <nav class="navbar background h-nav navbarph">
+
+        <ul class="navlist v-class">
+            <div class="logo"><img src="logo.png" alt="logo"></div>
+            <li class="navitem"><a href="#home">Home</a></li>
+            <li class="navitem"><a href="#about-us">About Us</a></li>
+            <li class="navitem"><a href="#services">Services</a></li>
+            <li class="navitem"><a href="#contact-us">Contact Us</a></li>
+        </ul>
+        <div class="rightnav v-class">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+
+        <div class="burger" onclick="myToggle()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section id="home" onclick="hid()">
+        <div class="box-main">
+            <div class="first-half">
+                <h1 class="text-big">CORE DEVELOPERS WELCOME YOU.</h1>
+                <p class="text-small">You can place yours orders if you want your companies to grow and have some
+                    valuable digital presence. We provide you lots of facilities mentioned below</p>
+
+                <div class="button">
+                    <button class="btn btn-home">Learn More</button>
+                    <button class="btn btn-home">Order Now</button>
+                </div>
+
+            </div>
+            <div class="second-half">
+                <img src="websec.jpeg" alt="sechalf">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us" onclick="hid()">
+        <div class="paras">
+            <h1 class="abouth1">Bringing Your Ideas Into Reality</h1>
+            <p class="text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur odio autem maxime,
+                consequuntur in eveniet aut! Officiis eveniet facere numquam velit provident cumque facilis atque quod
+                impedit fugiat autem, minus, voluptas corporis dolor commodi? Sequi facilis neque quidem aut magnam
+                deleniti, maxime eligendi quisquam sint qui alias mollitia laborum pariatur nobis quis, molestias ex
+                 </p>
+        </div>
+        <div class="thumbnial">
+            <img src="laptop.webp" alt="" class="imgfluid">
+        </div>
+    </section>
+
+
+    <section id="about-us-left">
+        <div class="paras">
+            <h1 class="abouth1">Increasing Customer Interaction</h1>
+            <p class="text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur odio autem maxime,
+                consequuntur in eveniet aut! Officiis eveniet facere numquam velit provident cumque facilis atque quod
+                impedit fugiat autem, minus, voluptas corporis dolor commodi? Sequi facilis neque quidem aut magnam
+                deleniti, maxime eligendi quisquam sint qui alias mollitia laborum pariatur nobis quis, molestias ex
+                </p>
+        </div>
+        <div class="thumbnial">
+            <img src="aboutleft.jpg" alt="" class="imgfluid">
+        </div>
+    </section>
+
+
+    <section id="about-us">
+        <div class="paras">
+            <h1 class="abouth1">Bringing Everything Digital</h1>
+            <p class="text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur odio autem maxime,
+                consequuntur in eveniet aut! Officiis eveniet facere numquam velit provident cumque facilis atque quod
+                impedit fugiat autem, minus, voluptas corporis dolor commodi? Sequi facilis neque quidem aut magnam
+                deleniti, maxime eligendi quisquam sint qui alias mollitia laborum pariatur nobis quis, molestias ex
+                </p>
+        </div>
+        <div class="thumbnial">
+            <img src="abright.webp" alt="" class="imgfluid">
+        </div>
+    </section>
+ 
+    <section id="contact-us" onclick="hid()">
+  <h2 class="text-center">CONTACT US</h2>
+  <div class="contact-form">
+     NAME: <input class="input" placeholder="enter youtr name" type="text" name="name" id="name">
+     EMAIL: <input class="input" type="email" placeholder="enter youtr email" name="email" id="email">
+     PHONE: <input class="input" type="number" placeholder="enter youtr ph#" name="number" id="number">
+      PASSWORD: <input class="input" type="password" placeholder="enter youtr password" name="password" id="password">
+      ENTER YOUR MESSAGE: <textarea name="message" class="input" id="message" cols="40" rows="8" placeholder="enter tour message " ></textarea>
+     
+<div class="buttons">
+      <input type="submit" class="btn btn-form " placeholder="submit"> 
+      <input type="reset" class="btn btn-form " placeholder="clear">
+  </div>
+  </div>
+    </section>
+
+    <footer>
+        <p class="text-footer">
+        Copyright &copy; 2021 -  www.coredevelopers.com All rights reserved. 
+        </p>
+    </footer>
+
+    <script>
+       
+        let navbar=document.querySelector('.h-nav')
+        let burger=document.querySelector('.burger')
+        let navlist=document.querySelector('.navlist')
+        let rightnav=document.querySelector('.rightnav')
+
+        // burger.addEventListener('click', ()=>{
+        //     navlist.classList.toggle('v-class');
+        //     rightnav.classList.toggle('v-class');
+        //     navbar.classList.toggle('h-nav');
+        // })
+        function myToggle(){
+         navlist.classList.toggle('v-class')
+         rightnav.classList.toggle('v-class')
+         navbar.classList.toggle('h-nav')
+
+        }
+        let navbarph=document.querySelector('.navbarph')
+       
+    </script>
+</body>
+
+</html>

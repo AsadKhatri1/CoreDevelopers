@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 43%;
+    height: 40px;
+   
+   
+
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+  
+}
+.navlist{
+ /* background-color: rgb(23, 167, 224); */
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.navitem{
+  list-style: none;
+padding: 26px 30px;
+font-family: 'Shippori Antique B1', sans-serif; 
+font-size: 18px;
+
+}
+
+.navitem a{
+text-decoration: none;
+color: white;
+font-size: 18px;
+}
+
+.navitem a:hover{
+
+color: rgb(129, 129, 126);
+}
+
+.rightnav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: rgb(9, 175, 125); */
+    width: 30%;
+    text-align: right;
+    padding-right:10px ;
+}
+.rightnav input{
+    height: 25px;
+    border-radius: 8px;
+}
+.btn{
+    color: rgb(13, 13, 14);
+    background: none;
+    /* height:25px ; */
+    border-radius: 8px;
+    padding: 6px;
+    margin: 5px;
+    color: rgb(246, 240, 240);
+    border: 1px solid rgb(253, 252, 252);
+    width: 100px;
+    cursor: pointer;
+
+}
+.btn-sm{
+    width: 70px;
+}
+.btn:hover{
+    background-color: rgb(102, 102, 100);
+}
+
+
+.background{
+    background: rgba(20, 20, 20, 0.7) url(boxmain.png);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background: url(boxmain.png);
+   height:80vh;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    max-width: 100%;
+}
+.first-half {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 150px;
+   padding: 30px;
+}
+.first-half h1{
+    margin: 20px;
+    font-size: 1.8rem;
+    color: white;
+}
+.first-half p{
+    font-size: 1.2rem;
+    color: white;
+}
+.button{
+    margin: 15px;
+}
+.second-half{
+    margin-right: 150px;
+}
+.second-half img{
+    height:200px;
+    border: 3px solid rgb(246, 246, 245);
+    border-radius:50px;
+   
+}
+
+#about-us{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+
+}
+
+#about-us-left{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+
+}
+.paras{
+    display: flex;
+    flex-direction:column ;
+    padding: 10px;
+}
+.text-small{
+    font-size:18px ;
+    color: rgb(71, 70, 70);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.imgfluid{
+    height: 250px;
+    height: 250px;
+    margin: 10px;
+    border: 1px solid rgb(146, 142, 142);
+    border-radius: 25px;
+}
+.abouth1{
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+#contact-us{
+    padding: 10px;
+    height:auto;
+    background-color: #e7effa;
+    
+}
+
+.contact-form{
+    font-family: 'Shippori Antique B1', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 10px;
+}
+.input{
+   padding: 5px;
+   margin: 20px;
+   width: 80%;
+   height: 20px;
+   border-radius: 10px;
+   border: 1px solid honeydew;
+}
+.btn-form{
+    border: 1px solid rgb(36, 35, 35);
+    color: rgb(68, 67, 67);
+}
+
+
+.text-center{
+    text-align: center;
+    font-family: 'Shippori Antique B1', sans-serif;
+    color: rgb(27, 27, 27);
+   
+}
+
+footer{
+    background: rgb(22, 22, 22);
+    color: white;
+    
+    height: 30px;
+}
+.text-footer{
+  text-align: center;
+  font-family: 'Shippori Antique B1', sans-serif;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
